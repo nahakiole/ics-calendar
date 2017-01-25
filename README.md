@@ -54,5 +54,6 @@ add_action( 'ics_calendar_render', 'calender_render');
 
 ## License and credit
 
-Used WordPress-Plugin-Template to initialize the plugin: https://github.com/hlashbrooke/WordPress-Plugin-Template
-Using ics-parser from Martin Thoma to parse the ics files: https://github.com/MartinThoma/ics-parser
+Used WordPress-Plugin-Template to initialize the plugin: https://github.com/hlashbrooke/WordPress-Plugin-Template (GPL)
+
+Using ics-parser from Martin Thoma to parse the ics files: https://github.com/MartinThoma/ics-parser (MIT)
