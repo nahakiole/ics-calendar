@@ -1,8 +1,8 @@
 === ICS Calendar ===
 Contributors: nahakiole
-Tags: wordpress, plugin, template, calendar, ics, date, event
+Tags: wordpress, plugin, template, calendar, ics, date, event, sync, remote, toastmasters
 Requires at least: 3.9
-Tested up to: 4.0
+Tested up to: 4.7.1
 Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -11,7 +11,7 @@ A plugin to display a remote ics file as a widget or with shortcode on a page.
 
 == Description ==
 
-This is where you can give a much longer description of your plugin that you can use to explain just how it awesome it really is.
+A plugin to display a remote ics file as a widget or with shortcode on a page.
 
 == Installation ==
 

@@ -7,13 +7,13 @@
  * Author: Robin Glauser
  * Author URI: https://www.robinglauser.ch/
  * Requires at least: 4.0
- * Tested up to: 4.0
+ * Tested up to: 4.7.1
  *
  * Text Domain: ics-calendar
  * Domain Path: /lang/
  *
  * @package WordPress
- * @author Hugh Lashbrooke
+ * @author Robin Glauser
  * @since 1.0.0
  */
 
