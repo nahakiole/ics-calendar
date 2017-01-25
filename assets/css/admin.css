@@ -1,0 +1,4 @@
+#ics_calendar_settings input[type=text],
+#ics_calendar_settings select {
+    width: 300px;
+}

@@ -1,0 +1,178 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//tmclub.eu//NONSGML kigkonsult.se iCalcreator 2.16.12//
+METHOD:PUBLISH
+X-WR-CALNAME:Rhetorik Club Bern
+X-WR-CALDESC:Rhetorik Club Bern
+X-WR-TIMEZONE:Europe/Paris
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+X-LIC-LOCATION:Europe/Paris
+BEGIN:STANDARD
+DTSTART:20171029T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20170326T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:70833-726@easy-speak.org
+DTSTAMP:20170124T234625Z
+DESCRIPTION: WOTD: Engelsgeduld
+DTSTART;TZID=Europe/Paris:20170116T181500
+DTEND;TZID=Europe/Paris:20170116T205500
+GEO:+46.949966;+7.435549
+LOCATION:Universität Bern Raum A 027 / UniS Schanzeneckstrasse 1 3012 Bern 
+ (Schanzeneckstrasse 1 \n3012 Bern\nSwitzerland)
+SUMMARY:Rhetorik Club Bern
+URL:http://tmclub.eu/view_meeting.php?t=80368
+END:VEVENT
+BEGIN:VEVENT
+UID:70834-726@easy-speak.org
+DTSTAMP:20170124T234625Z
+DESCRIPTION: WOTD: Engelsgeduld
+DTSTART;TZID=Europe/Paris:20170130T181500
+DTEND;TZID=Europe/Paris:20170130T210300
+GEO:+46.949715;+7.436635
+LOCATION:Universität Bern\; Parkterrasse 14\; Raum 323 (Parkterasse 14)
+SUMMARY:Rhetorik Club Bern
+URL:http://tmclub.eu/view_meeting.php?t=80369
+END:VEVENT
+BEGIN:VEVENT
+UID:70835-726@easy-speak.org
+DTSTAMP:20170124T234625Z
+DESCRIPTION: WOTD: Engelsgeduld
+DTSTART;TZID=Europe/Paris:20170206T181500
+DTEND;TZID=Europe/Paris:20170206T210300
+GEO:+46.949966;+7.435549
+LOCATION:Universität Bern Raum A 027 / UniS Schanzeneckstrasse 1 3012 Bern 
+ (Schanzeneckstrasse 1 \n3012 Bern\nSwitzerland)
+SUMMARY:Rhetorik Club Bern
+URL:http://tmclub.eu/view_meeting.php?t=80370
+END:VEVENT
+BEGIN:VEVENT
+UID:70836-726@easy-speak.org
+DTSTAMP:20170124T234625Z
+DESCRIPTION: WOTD: Engelsgeduld
+DTSTART;TZID=Europe/Paris:20170220T181500
+DTEND;TZID=Europe/Paris:20170220T210200
+GEO:+46.949715;+7.436635
+LOCATION:Universität Bern\; Parkterrasse 14\; Raum 323 (Parkterasse 14)
+SUMMARY:Rhetorik Club Bern
+URL:http://tmclub.eu/view_meeting.php?t=80371
+END:VEVENT
+BEGIN:VEVENT
+UID:70837-726@easy-speak.org
+DTSTAMP:20170124T234625Z
+DESCRIPTION: WOTD: Engelsgeduld
+DTSTART;TZID=Europe/Paris:20170306T181500
+DTEND;TZID=Europe/Paris:20170306T210300
+GEO:+46.949715;+7.436635
+LOCATION:Universität Bern\; Parkterrasse 14\; Raum 323 (Parkterasse 14)
+SUMMARY:Rhetorik Club Bern
+URL:http://tmclub.eu/view_meeting.php?t=80372
+END:VEVENT
+BEGIN:VEVENT
+UID:70866-726@easy-speak.org
+DTSTAMP:20170124T234625Z
+DESCRIPTION: WOTD: Engelsgeduld
+DTSTART;TZID=Europe/Paris:20170320T181500
+DTEND;TZID=Europe/Paris:20170320T202300
+GEO:+46.949966;+7.435549
+LOCATION:Universität Bern Raum A 027 / UniS Schanzeneckstrasse 1 3012 Bern 
+ (Schanzeneckstrasse 1 \n3012 Bern\nSwitzerland)
+SUMMARY:Rhetorik Club Bern
+URL:http://tmclub.eu/view_meeting.php?t=80404
+END:VEVENT
+BEGIN:VEVENT
+UID:70867-726@easy-speak.org
+DTSTAMP:20170124T234625Z
+DESCRIPTION:Meeting theme: Area Contest
+DTSTART;TZID=Europe/Paris:20170403T181500
+DTEND;TZID=Europe/Paris:20170403T182500
+GEO:+00.003948;-0.024033
+LOCATION:Extern
+SUMMARY:Rhetorik Club Bern
+URL:http://tmclub.eu/view_meeting.php?t=80405
+END:VEVENT
+BEGIN:VEVENT
+UID:70868-726@easy-speak.org
+DTSTAMP:20170124T234625Z
+DESCRIPTION:Meeting theme: Area Contest
+DTSTART;TZID=Europe/Paris:20170417T181500
+DTEND;TZID=Europe/Paris:20170417T182500
+GEO:+00.003948;-0.024033
+LOCATION:Extern
+SUMMARY:Rhetorik Club Bern
+URL:http://tmclub.eu/view_meeting.php?t=80406
+END:VEVENT
+BEGIN:VEVENT
+UID:70869-726@easy-speak.org
+DTSTAMP:20170124T234625Z
+DESCRIPTION:Meeting theme: 1. Mai - teilweise Feiertag
+DTSTART;TZID=Europe/Paris:20170501T181500
+DTEND;TZID=Europe/Paris:20170501T182500
+GEO:+46.949966;+7.435549
+LOCATION:Universität Bern Raum A 027 / UniS Schanzeneckstrasse 1 3012 Bern 
+ (Schanzeneckstrasse 1 \n3012 Bern\nSwitzerland)
+SUMMARY:Rhetorik Club Bern
+URL:http://tmclub.eu/view_meeting.php?t=80407
+END:VEVENT
+BEGIN:VEVENT
+UID:70870-726@easy-speak.org
+DTSTAMP:20170124T234625Z
+DESCRIPTION:Meeting theme: 1. Mai - teilweise Feiertag
+DTSTART;TZID=Europe/Paris:20170515T181500
+DTEND;TZID=Europe/Paris:20170515T210200
+GEO:+46.949966;+7.435549
+LOCATION:Universität Bern Raum A 027 / UniS Schanzeneckstrasse 1 3012 Bern 
+ (Schanzeneckstrasse 1 \n3012 Bern\nSwitzerland)
+SUMMARY:Rhetorik Club Bern
+URL:http://tmclub.eu/view_meeting.php?t=80408
+END:VEVENT
+BEGIN:VEVENT
+UID:70871-726@easy-speak.org
+DTSTAMP:20170124T234625Z
+DESCRIPTION:Meeting theme: 1. Mai - teilweise Feiertag
+DTSTART;TZID=Europe/Paris:20170529T181500
+DTEND;TZID=Europe/Paris:20170529T210200
+GEO:+46.949966;+7.435549
+LOCATION:Universität Bern Raum A 027 / UniS Schanzeneckstrasse 1 3012 Bern 
+ (Schanzeneckstrasse 1 \n3012 Bern\nSwitzerland)
+SUMMARY:Rhetorik Club Bern
+URL:http://tmclub.eu/view_meeting.php?t=80409
+END:VEVENT
+BEGIN:VEVENT
+UID:70872-726@easy-speak.org
+DTSTAMP:20170124T234625Z
+DESCRIPTION:Meeting theme: 1. Mai - teilweise Feiertag
+DTSTART;TZID=Europe/Paris:20170605T181500
+DTEND;TZID=Europe/Paris:20170605T210200
+GEO:+46.949966;+7.435549
+LOCATION:Universität Bern Raum A 027 / UniS Schanzeneckstrasse 1 3012 Bern 
+ (Schanzeneckstrasse 1 \n3012 Bern\nSwitzerland)
+SUMMARY:Rhetorik Club Bern
+URL:http://tmclub.eu/view_meeting.php?t=80410
+END:VEVENT
+BEGIN:VEVENT
+UID:70873-726@easy-speak.org
+DTSTAMP:20170124T234625Z
+DESCRIPTION:Meeting theme: 1. Mai - teilweise Feiertag
+DTSTART;TZID=Europe/Paris:20170619T181500
+DTEND;TZID=Europe/Paris:20170619T210200
+GEO:+46.949966;+7.435549
+LOCATION:Universität Bern Raum A 027 / UniS Schanzeneckstrasse 1 3012 Bern 
+ (Schanzeneckstrasse 1 \n3012 Bern\nSwitzerland)
+SUMMARY:Rhetorik Club Bern
+URL:http://tmclub.eu/view_meeting.php?t=80411
+END:VEVENT
+END:VCALENDAR
+
+
+
