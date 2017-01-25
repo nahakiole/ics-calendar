@@ -17,7 +17,7 @@ class ICS_Calendar_ICS_Helper
         $ics_timeout = get_option('ics_calendar_ics_timeout');
         $filetime = filemtime($this->temp_file . '/calendar.ics');
         $now = time();
-        if (($filetime + ($ics_timeout * 60)) > $now) {
+        if (($filetime + ($ics_timeout * 60)) > $now || !file_exists($this->temp_file . '/calendar.ics')) {
             $agent = 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.0.3705; .NET CLR 1.1.4322)';
             $ch = curl_init();
             curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
