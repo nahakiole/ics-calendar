@@ -18,7 +18,7 @@ This is a bad example of how you could potentially implement this function. ;D
 
 ```php
 function calender_render($events){
-
+    $output = "";
     $max = 5;
     foreach ($events as $index => $event) {
         if ($max == 0) {
@@ -30,26 +30,27 @@ function calender_render($events){
             continue;
         }
         $endDate = new DateTime($event['DTEND']);
-        echo 'Treffen am '.date_i18n('d. F Y',$startDate->format('U'));
-        echo '<br/>';
+        $output .= 'Treffen am '.date_i18n('d. F Y',$startDate->format('U'));
+        $output .= '<br/>';
         $geo = explode(';',$event['GEO']);
-        echo '<a target="_blank" href="https://www.google.ch/maps/place/'.urlencode($geo[0]).'+'.urlencode($geo[1]).'">'.
+        $output .= '<a target="_blank" href="https://www.google.ch/maps/place/'.urlencode($geo[0]).'+'.urlencode($geo[1]).'">'.
             preg_replace('/\([^)]*\)/','',str_replace(
                 [ '/','\n', '\;',],
                 ['<br/>',' ', '<br/>', ],
                 nl2br($event['LOCATION']))) .'</a>';
-        echo '<br>';
-        echo $startDate->format('H:i');
-        echo ' bis ';
-        echo $endDate->format('H:i');
-        echo '<br>';
-        echo '<a target="_blank" href="' . $event['URL'] . '">Weitere Informationen</a>';
-        echo '<br>';
-        echo '<br>';
+        $output .= '<br>';
+        $output .= $startDate->format('H:i');
+        $output .= ' bis ';
+        $output .= $endDate->format('H:i');
+        $output .= '<br>';
+        $output .= '<a target="_blank" href="' . $event['URL'] . '">Weitere Informationen</a>';
+        $output .= '<br>';
+        $output .= '<br>';
     }
+    return $output;
 }
 
-add_action( 'ics_calendar_render', 'calender_render');
+add_filter( 'ics_calendar_render', 'calender_render');
 ```
 
 ## License and credit

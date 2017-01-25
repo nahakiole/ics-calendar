@@ -15,7 +15,7 @@ class ICS_Calendar_Widget extends WP_Widget
     {
         echo '<h2>'.$instance['title'].'</h2>';
         $icshelper = new ICS_Calendar_ICS_Helper();
-        $icshelper->get_ics();
+        echo $icshelper->get_ics();
     }
 
 

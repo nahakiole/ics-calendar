@@ -51,7 +51,7 @@ function ICS_Calendar() {
 
         function ics_calendar_shortcode( $atts ){
             $icshelper = new ICS_Calendar_ICS_Helper();
-            $icshelper->get_ics();
+            return $icshelper->get_ics();
         }
         add_shortcode( 'ics_calendar', 'ics_calendar_shortcode' );
 
