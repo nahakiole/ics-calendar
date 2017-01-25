@@ -49,7 +49,8 @@ function calender_render($events){
     }
 }
 
-add_action( 'ics_calendar_render', 'calender_render');```
+add_action( 'ics_calendar_render', 'calender_render');
+```
 
 ## License and credit
 
